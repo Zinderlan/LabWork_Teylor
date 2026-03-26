@@ -213,7 +213,7 @@ int main()
     else if (choise_func == 3) 
     {
         float z = (x - 1.0) / (x + 1.0);
-        START_VAL start_val_ln = { z, 10, 2 * z, func_ln };
+        START_VAL start_val_ln = { z, final_coef, 2 * z, func_ln };
 
         RESULT direct_ln = direct_sum(start_val_ln);
         RESULT back_ln = back_sum(start_val_ln);
