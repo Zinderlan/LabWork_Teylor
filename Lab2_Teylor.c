@@ -161,9 +161,6 @@ int main()
     float exp_m = expf(x);
     float log_m = logf(x);
 
-    float z = (x - 1.0) / (x + 1.0);
-    START_VAL start_val_ln = { z, 10, 2 * z, func_ln };
-
     if (choise_func == 0)
     {
         START_VAL start_val_sin = { x_rad, final_coef, x_rad, func_sin };
